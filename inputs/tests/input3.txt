@@ -1,0 +1,22 @@
+fun add x
+  fun ret y
+    push x
+    push y
+    add
+    return
+  funEnd
+
+  push ret
+  return
+funEnd
+
+push add
+push 2
+call
+
+push 3
+call
+
+toString
+println
+quit

@@ -1,0 +1,102 @@
+fun calc op
+    fun opx x
+        fun opy y
+            push op
+            push x
+            call
+            push y
+            call
+            return
+        funEnd
+        push opy
+        return
+    funEnd
+    push opx
+    return
+funEnd
+
+fun add x
+    fun addy y
+        push x
+        push y
+        add
+        return
+    funEnd
+    push addy
+    return
+funEnd
+
+fun sub x
+    fun addy y
+        push x
+        push y
+        sub
+        return
+    funEnd
+    push addy
+    return
+funEnd
+
+fun mul x
+    fun addy y
+        push x
+        push y
+        mul
+        return
+    funEnd
+    push addy
+    return
+funEnd
+
+fun div x
+    fun addy y
+        push x
+        push y
+        div
+        return
+    funEnd
+    push addy
+    return
+funEnd
+
+push calc
+push add
+call
+push 10
+call
+push 5
+call
+
+push calc
+push sub
+call
+push 10
+call
+push 5
+call
+
+push calc
+push mul
+call
+push 10
+call
+push 5
+call
+
+push calc
+push div
+call
+push 10
+call
+push 5
+call
+
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

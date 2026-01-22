@@ -1,0 +1,30 @@
+fun makeAdder x
+    fun adder y
+      push x
+      push y
+      add
+      return
+    funEnd
+    push adder
+    return
+funEnd
+
+push makeAdder
+push 3
+call
+
+push add3
+swap
+bind
+
+push add3
+push 5
+call
+
+toString
+println
+toString
+println
+toString
+println
+quit

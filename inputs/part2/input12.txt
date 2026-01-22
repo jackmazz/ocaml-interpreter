@@ -1,0 +1,90 @@
+push 10
+let
+push 5
+let
+push 15
+let
+push 20
+let
+push 25
+let
+push 30
+let
+push 35
+let
+push 40
+let
+push 45
+let
+push 50
+let
+push 55
+let
+push 60
+let
+push 65
+let
+push 70
+let
+push 75
+let
+push 80
+let
+push 85
+let
+push 90
+let
+push 95
+let
+push 100
+let
+push 105
+let
+push 110
+end
+add
+end
+sub
+end
+mul
+end
+sub
+end
+sub
+end
+neg
+add
+end
+add
+end
+add
+end
+add
+end
+add
+end
+add
+end
+add
+end
+add
+end
+add
+end
+add
+end
+add
+end
+add
+end
+add
+end
+add
+end
+add
+end
+toString
+println
+toString
+println
+quit

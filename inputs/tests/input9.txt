@@ -1,0 +1,33 @@
+fun stop arg
+  push 1
+  return
+funEnd
+
+fun factorial arg
+  push arg
+  push 1
+  sub
+  push 1
+  push arg
+  equal
+  push factorial
+  push stop
+  if
+  swap
+  call
+  push arg
+  mul
+  return
+funEnd
+
+push factorial
+push 10
+call
+
+toString
+println
+toString
+println
+toString
+println
+quit

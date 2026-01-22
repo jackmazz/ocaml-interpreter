@@ -1,0 +1,16 @@
+fun identity x
+    let
+        push x
+    end
+    return
+funEnd
+
+push identity
+push 1
+call
+
+toString
+println
+toString
+println
+quit

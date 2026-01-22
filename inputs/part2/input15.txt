@@ -1,0 +1,51 @@
+push :unit:
+push 3
+bind
+push a
+push 9
+bind
+let
+push a
+push 15
+bind
+push b
+push 305
+bind
+push a
+push 10
+add
+end
+push a
+push 10
+add
+push "a"
+push 3
+bind
+push b
+push a
+add
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

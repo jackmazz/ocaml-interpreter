@@ -1,0 +1,63 @@
+push awef
+push 10
+pop
+push -40
+pop
+push "equal lessThan if are:  "
+push "commands!"
+cat
+push a
+push 13
+bind
+push b
+push 15
+bind
+push IsUnit
+swap
+bind
+push a
+push b
+mul
+push 110
+lessThan
+push FALSEmaybe
+swap
+bind
+push FALSEmaybe
+push :false:
+or
+push "FALSEmaybe is"
+push IsUnit
+push -15
+bind
+pop
+push IsUnit
+neg
+push "5 :false: :error: are:  "
+push "constants!"
+cat
+push 22
+push 33
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+toString
+println
+quit

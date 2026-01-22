@@ -1,0 +1,11 @@
+push a
+push 5
+bind
+push a
+push 3
+div
+toString
+println
+toString
+println
+quit

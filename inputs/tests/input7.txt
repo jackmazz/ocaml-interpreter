@@ -1,0 +1,39 @@
+fun calc op
+    fun opx x
+        fun opy y
+            push op
+            push x
+            call
+            push y
+            call
+            return
+        funEnd
+        push opy
+        return
+    funEnd
+    push opx
+    return
+funEnd
+
+let
+  fun add x
+      fun addy y
+          push x
+          push y
+          add
+          return
+      funEnd
+      push addy
+      return
+  funEnd
+end
+
+push op
+push 5
+call
+push 6
+call
+
+toString
+println
+quit

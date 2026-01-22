@@ -1,0 +1,11 @@
+33
+22
+5 :false: :error: are:  constants!
+15
+FALSEmaybe is
+:false:
+:unit:
+:unit:
+:unit:
+equal lessThan if are:  commands!
+awef
